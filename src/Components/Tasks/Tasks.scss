@@ -1,0 +1,69 @@
+.tasks{
+    width: 666px;
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    line-height: 59px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 50px;
+    background:#25273C;
+    .__info{
+        font-size: 24px;
+    }
+    &__info{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px;font-family: 'Monda';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 39px;
+        letter-spacing: 0.1em;
+        border: 2px solid #AD02FE;    
+        color: #FFFFFF;
+        &_clearBtn{
+            cursor: pointer ;
+        }
+    }
+}
+.task{
+    width: 100%;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 59px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 1s;
+    &__btn{
+        width: 43px;
+        height: 43px;
+        border-radius: 43px;
+        border: 2px solid rgba(191, 86, 255, 0.79);
+        margin: 0 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    &__complite{
+        background: linear-gradient(111.35deg, #E600FA 10.12%, rgba(82, 97, 234, 0) 82.22%);
+    }
+    &__text{
+        width: 75%;
+        border-bottom: 4px solid rgba(72, 64, 64, 0.37);
+        text-align-last: left;
+    }
+    &__linethrough{
+        text-decoration: line-through;
+    }
+
+}
